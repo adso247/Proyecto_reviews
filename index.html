@@ -4,8 +4,51 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reseñas</title>
+        
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <main>
+            <!-- Contenedor -->
+            <section class="container">
+                <!-- Titulo -->
+                <div class="title">
+                    <h2>Nuestras reseñas</h2>
+                    <!-- Linea inferior del titulo -->
+                    <div class="Underline"></div>
+                </div>
+                <!-- Reseñas -->
+                <article class="review">
+                    <div class="img-container">
+                        <img src="img/persona1.jpg" id="person-img" alt="">
+                    </div>
+                    <!-- Nombre -->
+                    <h4 id="author">Andrés Felipe Godoy</h4>
+                    <!-- Trabajo -->
+                    <p id="job">Desarrollador Web</p>
+                    <!-- Información -->
+                    <p id="info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis facere sint cum iure dolorem voluptatibus suscipit, maiores hic temporibus.
+                    </p>
+                    <!-- Botones para cambiar de reseña -->
+                    <div class="button-container">
+                        <button class="prev-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="next-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <!-- Botón aleatorio -->
+                    <button class="random-btn"> Sorpréndeme </button>
+                </article>
+            </section>
+        </main>
+        <!-- Javascript -->
+        <script src="js/app.js"></script>
     </body>
 </html>
